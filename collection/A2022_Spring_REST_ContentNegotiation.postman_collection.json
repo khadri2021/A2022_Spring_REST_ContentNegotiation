@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "a1e69a85-d580-4e1f-ab6b-3383c0e5f3ff",
+		"name": "A2022_Spring_REST_ContentNegotiation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29781038"
+	},
+	"item": [
+		{
+			"name": "get",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/A2022_Spring_REST_ContentNegotiation/content/student/create?id=100&name=JHON&address=KADIRI",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"A2022_Spring_REST_ContentNegotiation",
+						"content",
+						"student",
+						"create"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "100"
+						},
+						{
+							"key": "name",
+							"value": "JHON"
+						},
+						{
+							"key": "address",
+							"value": "KADIRI"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
